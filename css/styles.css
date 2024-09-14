@@ -32,15 +32,18 @@ img {
 }
 
 
-.container-header {
+.container {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 15;
-    padding-left: 15;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+}
+
+.page-nav {
     display: flex;
-
-
 }
 
 .page-header {
@@ -55,6 +58,9 @@ img {
 .menu {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
 }
 
 .logo {
@@ -90,8 +96,7 @@ img {
     line-height: 1.15;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px;
-    gap: 40px;
+
 }
 
 .menu-item {
@@ -163,13 +168,8 @@ address {
 }
 
 
-.container-hero {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 15;
-    padding-left: 15;
-}
+
+
 
 .hero-section {
     padding-top: 188px;
@@ -228,15 +228,9 @@ button {
     padding-bottom: 120px;
 }
 
-.container-two {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 15;
-    padding-left: 15;
-}
 
-.vectors {
+
+.visually-hidden {
     visibility: hidden;
 }
 
@@ -275,7 +269,7 @@ button {
 }
 
 .vectors-list-item {
-    width: calc((100%-72)/4);
+    width: calc((100%-72px)/4);
 }
 
 
@@ -289,13 +283,7 @@ button {
     padding-bottom: 120px;
 }
 
-.container-three {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 15;
-    padding-left: 15;
-}
+
 
 
 .team {
@@ -344,7 +332,7 @@ button {
     text-align: center;
     color: #2e2f42;
     background-color: #FFFFFF;
-    width: calc((100%-72)/4);
+    width: calc((100%-72px)/4);
     border-radius: 0, 0, 4px, 4px;
 }
 
@@ -388,18 +376,74 @@ button {
     color: #2e2f42;
 }
 
+.container-mark {
+    padding-top: 32px;
+    padding-bottom: 32px;
 
+    .teammates {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .team-text {
+        text-align: center;
+    }
+}
+
+.container-tom {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    .teammates {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .team-text {
+        text-align: center;
+    }
+}
+
+.container-camila {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    .teammates {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .team-text {
+        text-align: center;
+    }
+}
+
+.container-daniel {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    .teammates {
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .team-text {
+        text-align: center;
+    }
+}
+
+
+.section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .portfolio .portfolio-subtitle {
     color: #2e2f42;
 }
 
-.container-four {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 15;
-    padding-left: 15;
+.portfolio-banking .portfolio-screen .portfolio-courses .portfolio-meditation .portfolio-taxi .portfolio-payment {
+    width: calc((100%-48)/3);
 }
 
 .portfolio {
@@ -410,6 +454,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio {
@@ -442,32 +487,94 @@ button {
 .portfolio-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
     flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 
 }
 
+.portfolio-meditation {
+    margin-right: 0;
+}
 
+.portfolio-courses {
+    margin-right: 0;
+}
 
+.container-banking {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    border-top: none;
+    margin-bottom: 8px;
+    border: 1px, solid, #e7e9fc;
+    text-align: center;
+}
 
+.container-payment {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    border-top: none;
+    margin-bottom: 8px;
+    border: 1px, solid, #e7e9fc;
+    text-align: center;
+}
+
+.container-meditation {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    border-top: none;
+    margin-bottom: 8px;
+    border: 1px, solid, #e7e9fc;
+    text-align: center;
+}
+
+.container-taxi {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    border-top: none;
+    margin-bottom: 8px;
+    border: 1px, solid, #e7e9fc;
+    text-align: center;
+}
+
+.container-screen {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    border-top: none;
+    margin-bottom: 8px;
+    border: 1px, solid, #e7e9fc;
+    text-align: center;
+}
+
+.container-courses {
+    padding-top: 32px;
+    padding-bottom: 16px;
+    border-top: none;
+    margin-bottom: 8px;
+    border: 1px, solid, #e7e9fc;
+    text-align: center;
+}
 
 
 
 .page-footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
-.container-footer {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 15;
-    padding-left: 15;
-}
+
 
 
 .logo-footer-span {
     color: #f4f4fd;
+    margin-bottom: 16px;
+}
+
+
+.logo {
+    display: inline-block;
 }
 
 .footer-text {
