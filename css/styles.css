@@ -4,6 +4,19 @@ body {
     background-color: #FFFFFF;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+
+
+    margin-bottom: 0;
+}
+
 ul,
 ol {
     list-style-type: none;
@@ -19,18 +32,30 @@ img {
 }
 
 
-.container {
+.container-header {
     max-width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-right: 15;
     padding-left: 15;
+    display: flex;
+
 
 }
 
+.page-header {
+    border-bottom: 1px, solid, #e7e9fc;
+}
 
+.page-nav {
+    display: flex;
+    align-items: center;
+}
 
-
+.menu {
+    display: flex;
+    align-items: center;
+}
 
 .logo {
     color: #4d5ae5;
@@ -52,22 +77,25 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 
 
 
 .menu-link {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.15;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px;
+    gap: 40px;
 }
 
 .menu-item {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -88,6 +116,7 @@ img {
 
 .contacts-link {
     line-height: 1.5;
+
 }
 
 .menu-item:focus {
@@ -106,6 +135,12 @@ address {
     font-style: normal;
 }
 
+.contacts-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 24px;
+}
 
 
 
@@ -118,7 +153,7 @@ address {
 }
 
 .page-header {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 700;
     font-size: 56;
     line-height: 107%;
@@ -127,18 +162,39 @@ address {
     color: #fff;
 }
 
+
+.container-hero {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15;
+    padding-left: 15;
+}
+
+.hero-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .main-title {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
 }
 
 .order-service {
     color: #4d5ae5;
+    background-color: #4D5AE5;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
 }
 
 .order-service:hover,
@@ -148,9 +204,8 @@ address {
 
 
 
-.order-service {
-    background-color: #4D5AE5;
-}
+
+
 
 button {
     cursor: pointer;
@@ -158,7 +213,7 @@ button {
 }
 
 .order-service {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 500;
     font-size: 16;
     line-height: 150%;
@@ -168,7 +223,22 @@ button {
 
 
 
+.section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
+.container-two {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15;
+    padding-left: 15;
+}
+
+.vectors {
+    visibility: hidden;
+}
 
 .vectors-title {
     color: #2e2f42;
@@ -179,16 +249,17 @@ button {
 }
 
 .vectors-title {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .vectors-text {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 400;
     font-size: 16;
     line-height: 150%;
@@ -200,20 +271,42 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 24px;
 }
+
+.vectors-list-item {
+    width: calc((100%-72)/4);
+}
+
+
+
+
 
 
 .section-three {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
+
+.container-three {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15;
+    padding-left: 15;
+}
+
 
 .team {
     color: #2e2f42;
     font-size: 36px;
+    margin-bottom: 72px;
 }
 
+
 .team {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 111%;
@@ -235,6 +328,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 24px;
 }
 
 .team-list {
@@ -242,7 +336,7 @@ button {
 }
 
 .team-list-item {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -250,6 +344,8 @@ button {
     text-align: center;
     color: #2e2f42;
     background-color: #FFFFFF;
+    width: calc((100%-72)/4);
+    border-radius: 0, 0, 4px, 4px;
 }
 
 
@@ -259,7 +355,7 @@ button {
 }
 
 .teammates {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -273,7 +369,7 @@ button {
 }
 
 .team-text {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -283,7 +379,7 @@ button {
 }
 
 .team {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 700;
     font-size: 36;
     line-height: 111%;
@@ -298,8 +394,16 @@ button {
     color: #2e2f42;
 }
 
+.container-four {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15;
+    padding-left: 15;
+}
+
 .portfolio {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 700;
     font-size: 36;
     line-height: 111%;
@@ -318,7 +422,7 @@ button {
 }
 
 .portfolio-subtitle {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -327,7 +431,7 @@ button {
 }
 
 .portfolio-text {
-    font-family: "Roboto", sans-serif;
+
     font-weight: 400;
     font-size: 16;
     line-height: 150%;
@@ -352,6 +456,15 @@ button {
 .page-footer {
     background-color: #2e2f42;
 }
+
+.container-footer {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15;
+    padding-left: 15;
+}
+
 
 .logo-footer-span {
     color: #f4f4fd;
