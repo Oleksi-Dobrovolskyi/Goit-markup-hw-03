@@ -282,6 +282,7 @@ button {
     flex-direction: row;
     justify-content: space-between;
     gap: 24px;
+    width: calc((100% - 72) / 4);
 }
 
 .vectors-list-item {
@@ -476,6 +477,8 @@ button {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
+    border-top: none;
 }
 
 .portfolio-text {
@@ -487,15 +490,6 @@ button {
     color: #434455;
 }
 
-
-
-.portfolio-meditation {
-    margin-right: 0;
-}
-
-.portfolio-courses {
-    margin-right: 0;
-}
 
 
 
