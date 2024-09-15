@@ -21,7 +21,7 @@ ul,
 ol {
     list-style-type: none;
     margin: 0;
-    padding-left: 0;
+    padding: 0;
 }
 
 a {
@@ -253,7 +253,7 @@ button {
 }
 
 .vectors-list-item {
-    width: calc((100% - 72) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .vectors-title {
