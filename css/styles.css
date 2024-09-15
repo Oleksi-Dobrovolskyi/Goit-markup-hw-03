@@ -144,6 +144,7 @@ address {
     align-items: center;
     gap: 40px;
     padding: 24px;
+    margin-left: 166px;
 }
 
 .page-header {
@@ -176,20 +177,20 @@ address {
 }
 
 .main-title {
-
+    text-align: center;
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
-    text-align: center;
+
     color: #fff;
     max-width: 496px;
 }
 
 .order-service {
+    display: block;
     color: #4d5ae5;
     background-color: #4D5AE5;
-    display: block;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -202,6 +203,10 @@ address {
 }
 
 
+
+.order-service {
+    background-color: #4D5AE5;
+}
 
 button {
     cursor: pointer;
@@ -269,7 +274,7 @@ button {
 }
 
 .vectors-list {
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 
@@ -321,7 +326,7 @@ button {
 
 .team-list-item {
     background-color: #FFFFFF;
-    flex-basis: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -407,7 +412,7 @@ button {
 }
 
 .portfolio-list {
-    width: calc((100%-48)/3);
+    width: calc((100% - 48) / 3);
 }
 
 .portfolio {
