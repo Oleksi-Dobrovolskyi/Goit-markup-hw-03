@@ -38,7 +38,7 @@ img {
     padding-left: 15px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+
 
 
 }
@@ -416,13 +416,20 @@ button {
     padding-bottom: 120px;
 }
 
+.container-item {
+    padding: 32px 16px;
+    border-top: none;
+    margin-bottom: 8px;
+    border: 1px solid #e7e9fc;
+    text-align: center;
+}
+
 .portfolio .portfolio-subtitle {
     color: #2e2f42;
 }
 
-.portfolio-list {
-    width: calc((100% - 48) / 3);
-}
+
+
 
 .portfolio {
 
@@ -444,6 +451,21 @@ button {
     text-align: center;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+
+}
+
+.portfolio-list-item {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 48) / 3);
+}
+
+
 .portfolio-subtitle {
 
     font-weight: 500;
@@ -462,14 +484,7 @@ button {
     color: #434455;
 }
 
-.portfolio-list {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    row-gap: 48px;
-    column-gap: 24px;
 
-}
 
 .portfolio-meditation {
     margin-right: 0;
@@ -479,13 +494,7 @@ button {
     margin-right: 0;
 }
 
-.container-item {
-    padding: 32px 16px;
-    border-top: none;
-    margin-bottom: 8px;
-    border: 1px solid #e7e9fc;
-    text-align: center;
-}
+
 
 
 
