@@ -34,10 +34,10 @@ img {
 
 .container {
     max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
     padding-right: 15px;
     padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
 
 
 }
@@ -47,7 +47,7 @@ img {
 }
 
 .page-header {
-    border-bottom: 1px, solid, #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .page-nav {
@@ -147,16 +147,6 @@ address {
     padding: 24px;
 }
 
-
-
-.hero-section {
-    background-color: #2e2f42;
-}
-
-.main-title {
-    color: #ffffff;
-}
-
 .page-header {
 
     font-weight: 700;
@@ -168,7 +158,17 @@ address {
 }
 
 
+/*!---------------------------------HERO--*/
 
+
+
+.hero-section {
+    background-color: #2e2f42;
+}
+
+.main-title {
+    color: #ffffff;
+}
 
 
 .hero-section {
@@ -204,9 +204,6 @@ address {
 
 
 
-
-
-
 button {
     cursor: pointer;
 
@@ -220,6 +217,9 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
 }
+
+/*-----------------------------!section2*/
+
 
 
 
@@ -268,13 +268,13 @@ button {
     gap: 24px;
 }
 
-.vectors-list-item {
+.vectors-list {
     width: calc((100%-72px)/4);
 }
 
 
 
-
+/*!----------------------------------section3*/
 
 
 .section-three {
@@ -321,6 +321,8 @@ button {
 
 .team-list {
     background-color: #FFFFFF;
+    width: calc((100%-72px)/4);
+    border-radius: 0 0 4px 4px;
 }
 
 .team-list-item {
@@ -332,8 +334,7 @@ button {
     text-align: center;
     color: #2e2f42;
     background-color: #FFFFFF;
-    width: calc((100%-72px)/4);
-    border-radius: 0, 0, 4px, 4px;
+
 }
 
 
@@ -432,6 +433,7 @@ button {
     }
 }
 
+/*----------------------------------!section4*/
 
 .section-four {
     padding-top: 120px;
@@ -507,7 +509,7 @@ button {
     padding-bottom: 16px;
     border-top: none;
     margin-bottom: 8px;
-    border: 1px, solid, #e7e9fc;
+    border: 1px solid #e7e9fc;
     text-align: center;
 }
 
@@ -516,7 +518,7 @@ button {
     padding-bottom: 16px;
     border-top: none;
     margin-bottom: 8px;
-    border: 1px, solid, #e7e9fc;
+    border: 1px solid #e7e9fc;
     text-align: center;
 }
 
@@ -525,7 +527,7 @@ button {
     padding-bottom: 16px;
     border-top: none;
     margin-bottom: 8px;
-    border: 1px, solid, #e7e9fc;
+    border: 1px solid #e7e9fc;
     text-align: center;
 }
 
@@ -534,7 +536,7 @@ button {
     padding-bottom: 16px;
     border-top: none;
     margin-bottom: 8px;
-    border: 1px, solid, #e7e9fc;
+    border: 1px solid #e7e9fc;
     text-align: center;
 }
 
@@ -543,7 +545,7 @@ button {
     padding-bottom: 16px;
     border-top: none;
     margin-bottom: 8px;
-    border: 1px, solid, #e7e9fc;
+    border: 1px solid #e7e9fc;
     text-align: center;
 }
 
@@ -552,11 +554,11 @@ button {
     padding-bottom: 16px;
     border-top: none;
     margin-bottom: 8px;
-    border: 1px, solid, #e7e9fc;
+    border: 1px solid #e7e9fc;
     text-align: center;
 }
 
-
+/*---------------------------------------footer*/
 
 .page-footer {
     background-color: #2e2f42;
@@ -569,12 +571,13 @@ button {
 
 .logo-footer-span {
     color: #f4f4fd;
-    margin-bottom: 16px;
+
 }
 
 
 .logo {
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text {
