@@ -44,6 +44,8 @@ img {
 
 .header-container {
     display: flex;
+    align-items: center;
+    padding: 24px;
 }
 
 
@@ -60,13 +62,15 @@ img {
 .menu {
     display: flex;
     align-items: center;
-    padding: 24px 0 24px;
+
     gap: 40px;
 }
 
 .logo {
     color: #4d5ae5;
+
 }
+
 
 .logo-span {
     color: #2e2f42;
@@ -107,7 +111,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding: 24px 0 24px;
+
 }
 
 .menu-item:hover {
@@ -140,25 +144,31 @@ img {
 
 address {
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-list {
     display: flex;
     align-items: center;
     gap: 40px;
-    padding: 24px;
-    margin-left: 166px;
+
+
+
+
 }
 
-.page-header {
 
-    font-weight: 700;
-    font-size: 56;
-    line-height: 107%;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*!---------------------------------HERO--*/
@@ -185,9 +195,12 @@ address {
     font-size: 56px;
     line-height: 107%;
     letter-spacing: 0.02em;
-
+    text-align: center;
     color: #fff;
     max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
 .order-service {
@@ -199,6 +212,8 @@ address {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .order-service:hover,
@@ -285,8 +300,7 @@ button {
 
 .vectors-list {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+
     gap: 24px;
 
 }
@@ -335,14 +349,13 @@ button {
 
 .team-list {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+
     gap: 24px;
 }
 
 .team-list-item {
     background-color: #FFFFFF;
-    width: calc((100% - 72) / 4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -404,7 +417,7 @@ button {
     padding-top: 32px;
     padding-bottom: 32px;
 
-    margin-bottom: 8px;
+
     text-align: center;
 }
 
@@ -461,16 +474,16 @@ button {
 
 .container-item {
     padding: 32px 16px;
-    margin-bottom: 8px;
+
     border: 1px solid #e7e9fc;
-    text-align: center;
+
     border-top: none;
 }
 
 .portfolio-list-item {
-    display: flex;
+
     flex-direction: column;
-    width: calc((100% - 48) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 
@@ -519,6 +532,10 @@ button {
 
 .logo {
     display: inline-block;
+
+}
+
+.logo-footer {
     margin-bottom: 16px;
 }
 
@@ -526,4 +543,5 @@ button {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    margin-right: 860px;
 }
