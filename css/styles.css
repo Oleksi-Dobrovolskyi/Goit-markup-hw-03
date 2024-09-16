@@ -45,7 +45,9 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding: 24px;
+
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 
@@ -62,7 +64,8 @@ img {
 .menu {
     display: flex;
     align-items: center;
-
+    padding-left: 24px;
+    padding-right: 24px;
     gap: 40px;
 }
 
