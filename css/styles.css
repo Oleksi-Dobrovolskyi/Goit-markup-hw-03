@@ -45,9 +45,9 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-
     padding-left: 15px;
     padding-right: 15px;
+
 }
 
 
@@ -64,8 +64,7 @@ img {
 .menu {
     display: flex;
     align-items: center;
-    padding-left: 24px;
-    padding-right: 24px;
+
     gap: 40px;
 }
 
@@ -104,6 +103,9 @@ img {
     line-height: 1.15;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-top: 24px;
+    padding-bottom: 24px;
+
 
 }
 
